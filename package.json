@@ -1,0 +1,39 @@
+{
+  "name": "climate-react-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "climate-client-api": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jumpstate": "^2.2.2",
+    "koa": "^2.2.0",
+    "koa-mount": "^3.0.0",
+    "koa-route": "^3.2.0",
+    "koa-send": "^4.1.0",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.18.3",
+    "nodemon": "^1.11.0",
+    "promise-polyfill": "^6.0.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-helmet": "4",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "next",
+    "react-snapshot": "^1.1.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.0.1",
+    "validate.js": "^0.11.1",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "server": "NODE_ENV=development nodemon -L -e js,jade server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
